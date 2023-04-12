@@ -1,9 +1,9 @@
 <html>
  <head>
-  <title>PHP Giakoumis Test!</title>
+  <title>PHP Effie Test!</title>
  </head>
  <body>
  <?php echo '<p>Hello World</p>'; ?> 
- <?php echo '<p>This is the dev code, it does silly things</p>'; ?> 
+ <?php echo '<p>This is node 3</p>'; ?> 
  </body>
 </html>
