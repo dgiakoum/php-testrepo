@@ -1,6 +1,6 @@
 <html>
  <head>
-  <title>PHP Giakoumis Test!</title>
+  <title>PHP Mhtsos Test!</title>
  </head>
  <body>
  <?php echo '<p>Hello World</p>'; ?> 
