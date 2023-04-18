@@ -21,5 +21,9 @@ jobs:
         run: echo "TEEEESSSSTTT!!!"
       - name: Debug_stuff
         run: echo "{ runner.os }"
+      - name: Debug_stuff_2
+        run: echo "{{ runner.os }}"
+      - name: Debug_stuff_3
+        run: echo "${{runner.os}}"
         
 
