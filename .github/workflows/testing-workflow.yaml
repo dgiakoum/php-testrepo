@@ -4,7 +4,7 @@ on:
     inputs:
       branch:
         description: 'The branch to build'
-        required: true
+        required: false
       environment:
         description: 'The environment to deploy to'
         required: false
@@ -14,3 +14,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+      - name: Debug_stuff
+        run: "echo ${{ runner.os }}"
+        
