@@ -21,7 +21,7 @@ jobs:
             ARGS: "--delete"
             SOURCE: "."
             REMOTE_HOST: "gate.paas.massivegrid.com"
-            REMOTE_USER: "38"
+            REMOTE_USER: "127221-38"
             REMOTE_PORT: 3022
             TARGET: "/var/www/webroot/ROOT"
             EXCLUDE: "/dist/, /node_modules/"
