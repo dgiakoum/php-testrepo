@@ -4,6 +4,6 @@
  </head>
  <body>
  <?php echo '<p>Hello World</p>'; ?> 
- <?php echo '<p>This is node 3</p>'; ?> 
+ <?php echo '<p>Deployment test</p>'; ?> 
  </body>
 </html>
