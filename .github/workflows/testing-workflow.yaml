@@ -14,9 +14,12 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+  tests:
+    runs-on: ubuntu-latest
+    steps:
       - name: Test
-        run: "echo TEEEESSSSTTT!!!"
+        run: echo "TEEEESSSSTTT!!!"
       - name: Debug_stuff
-        run: "echo ${{ runner.os }}"
+        run: echo "{ runner.os }"
         
 
